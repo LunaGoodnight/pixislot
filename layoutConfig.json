@@ -1,0 +1,30 @@
+{
+  "title": "magic",
+  "assets": ["https://i.imgur.com/hJz5IvT.jpeg", "https://i.imgur.com/5J2UGZ3.jpeg" ],
+  "classes": {
+    "NormalSpin": {
+
+      "child": {
+        "Background": {
+          "texture": "https://i.imgur.com/hJz5IvT.jpeg",
+          "width": 999,
+          "height": 500,
+          "isFull": true
+        }
+      }
+    },
+    "FreeSpin": {
+      "width": 100,
+      "height": 200,
+      "child": {
+        "Background": {
+          "texture": "https://i.imgur.com/5J2UGZ3.jpeg",
+          "width": 100,
+          "height": 200
+
+        }
+
+      }
+    }
+  }
+}
