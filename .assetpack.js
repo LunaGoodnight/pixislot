@@ -6,7 +6,6 @@ export default {
     // cache: true,
     pipes: [
         ...pixiPipes({
-            cacheBust: false,
             manifest: {
                 output: './src/manifest.json',
             },
