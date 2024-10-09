@@ -14,11 +14,7 @@ import { EnumGameStatus } from "./EnumGameStatus.ts";
     // Wait for the Renderer to be available
     await app.init({ background: "#1099bb", resizeTo: window });
 
-    // The application will create a canvas element for you that you
-    // can then insert into the DOM
     document.body.appendChild(app.canvas);
-    // const arr = layoutConfig.assets;
-
 
     // Init PixiJS assets with this asset manifest
     await Assets.init({ manifest, basePath: "assets" });
@@ -27,12 +23,13 @@ import { EnumGameStatus } from "./EnumGameStatus.ts";
         console.log(progress);
     };
     // Load assets for the load screen
-    await Assets.loadBundle(["preload", "default"], progressLog);
+    Assets.loadBundle(["preload", "default"], progressLog).then(() => {
+
+        console.log('I am stupid')
+        const layoutManager = new LayoutManager({ layoutConfig });
+        layoutManager.updateLayout(EnumGameStatus.NormalSpin);
+        app.stage.addChild(layoutManager);
+    });
 
 
-    // load the texture we need
-    // await Assets.load([...arr]);
-    const layoutManager = new LayoutManager({ layoutConfig });
-    layoutManager.updateLayout(EnumGameStatus.NormalSpin);
-    app.stage.addChild(layoutManager);
 })();
