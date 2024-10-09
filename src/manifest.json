@@ -1619,51 +1619,6 @@
               "m": true
             }
           }
-        },
-        {
-          "alias": [
-            "images/preload/sm_smcarddasspppart8393_1_1024x1024.webp",
-            "sm_smcarddasspppart8393_1_1024x1024.webp"
-          ],
-          "src": [
-            "images/preload/sm_smcarddasspppart8393_1_1024x1024.webp"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "alias": [
-            "images/preload/sm_smcarddasspppart8393_2_1024x1024.webp",
-            "sm_smcarddasspppart8393_2_1024x1024.webp"
-          ],
-          "src": [
-            "images/preload/sm_smcarddasspppart8393_2_1024x1024.webp"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "alias": [
-            "images/preload/wp7842528-anime-swordsman-wallpapers.jpg",
-            "wp7842528-anime-swordsman-wallpapers.jpg"
-          ],
-          "src": [
-            "images/preload/wp7842528-anime-swordsman-wallpapers@0.5x.webp",
-            "images/preload/wp7842528-anime-swordsman-wallpapers@0.5x.jpg",
-            "images/preload/wp7842528-anime-swordsman-wallpapers.webp",
-            "images/preload/wp7842528-anime-swordsman-wallpapers.jpg"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
         }
       ]
     }
