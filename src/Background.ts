@@ -1,5 +1,6 @@
 import { Sprite, Texture } from "pixi.js";
 
+
 export class Background extends Sprite {
     constructor(layoutConfig: {
         texture: string;

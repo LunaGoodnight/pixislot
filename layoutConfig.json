@@ -1,12 +1,11 @@
 {
   "title": "magic",
-  "assets": ["https://i.imgur.com/hJz5IvT.jpeg", "https://i.imgur.com/5J2UGZ3.jpeg" ],
   "classes": {
     "NormalSpin": {
 
       "child": {
         "Background": {
-          "texture": "https://i.imgur.com/hJz5IvT.jpeg",
+          "texture": "20241003161723_1.jpg",
           "width": 999,
           "height": 500,
           "isFull": true
