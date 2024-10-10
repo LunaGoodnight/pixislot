@@ -7,6 +7,7 @@ export default {
     pipes: [
         ...pixiPipes({
             manifest: {
+                createShortcuts: true,
                 output: './src/manifest.json',
             },
         }),
